@@ -1,6 +1,12 @@
-h1 {
+#my_header {
     font-size: 50px;
     color: aqua;
     font-style: italic;
     background-color: beige;
+}
+
+.myParagraph {
+    font-size: 50px;
+    color: brown;
+    border: 1px solid blue;
 }
