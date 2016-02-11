@@ -1,0 +1,25 @@
+#container {
+    font-family: Arial, Tahoma, Helvetica, sans-serif;    
+    font-weight: lighter;
+} 
+
+#top {
+    background-color: #0071c5;
+    color: white;
+    text-align: left;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.nav_list {
+    padding-left: 0pt;
+}
+
+li {
+    display: inline;
+}

@@ -1,0 +1,32 @@
+/* {
+    border: 1px solid red;
+} */
+
+.box1 {
+    float: left;
+    width: 500px;
+}
+
+.box2 {
+    float: right;
+    width: 500px;
+    text-align: center;
+    background-color: rgb(240,240,240);
+}
+
+.berries-text {
+    color: #252B3B;
+    font-size: 1.9em;
+}
+
+p {
+    color: #555;
+    padding-bottom: 20px;
+}
+
+.readmore {
+    font-weight: bold;
+    color: #252B3B;
+    border: 2px solid #555;
+    padding: 5px
+}
