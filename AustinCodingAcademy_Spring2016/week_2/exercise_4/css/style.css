@@ -1,0 +1,78 @@
+* {
+    outline: 1px solid red;
+}
+
+/*-- Type selector --*/
+
+p {
+    color: orange;
+    font-size: 2rem;
+}
+
+p span {
+    font-weight: bold;
+    color: green;
+}
+
+/*-- Class selector --*/
+
+em.highlight {
+    background-color: hotpink;
+}
+
+h4.highlight {
+    font-size: 3em;
+}
+
+strong.highlight {
+    color: aqua;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+/*-- Id selector --*/
+
+/* can also do #overview h4 */
+#overview > h4 {
+    font-family: monospace;
+}
+
+h4#strategy {
+    font-stretch: extra-condensed;
+}
+
+/* Descendent selector */
+
+#ex4 section aside h4 {
+    color: purple;
+}
+
+/* Child selector */
+
+#example > article > p {
+    color: chartreuse;
+    font-size: 10px;
+}
+
+/* Pseudo-class selector */
+
+li:hover {
+    color: aqua;
+    font-size: 50px;
+}
+
+/* more examples:
+
+li:nth-child(2) {
+    color: aqua;
+    text-decoration: underline;
+}
+
+li:nth-child(3) {
+    color: cadetblue;
+    font-family: fantasy;
+}
+
+*/
