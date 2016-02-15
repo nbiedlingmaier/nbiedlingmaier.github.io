@@ -2,14 +2,13 @@
     outline: 1px solid red;
 }
 
-.box1 img {
+.box1 img{
     float: left;
     width: 500px;
 }
 
 .box2 {
-    float: right;
-    width: 500px;
+    margin-right: 50%;
     text-align: center;
     background-color: rgb(240,240,240);
 }
@@ -29,4 +28,6 @@ p {
     color: #252B3B;
     border: 2px solid #555;
     padding: 5px;
+    max-width: 100px;
+    margin: auto;
 }
