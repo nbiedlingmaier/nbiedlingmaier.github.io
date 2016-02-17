@@ -1,24 +1,38 @@
-* {
+/* {
     outline: 1px solid red;
+}*/
+
+.main {
+    overflow: hidden;
+    position: relative;
 }
 
 .box1 img{
     float: left;
-    width: 500px;
+    width: 50%;
 }
 
 .box2 {
-    margin-right: 50%;
+    margin-left: 50%;
+    min-height: 100%;
     text-align: center;
     background-color: rgb(240,240,240);
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-.berries-text {
+.inside_text {
+    margin-top: 25%;
+    padding: 70px 70px;
+}
+
+.box2 h1 {
     color: #252B3B;
     font-size: 1.9em;
 }
 
-p {
+.box2 p {
     color: #555;
     padding-bottom: 20px;
 }
