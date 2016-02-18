@@ -27,6 +27,15 @@
                 float: left;
             }
             
+            .parent-container:after {
+                clear: both;
+                content: ".";
+                display: block;
+                height: 0;
+                line-height: 0;
+                visibility: hidden;
+            }
+            
             /*Hint: Implement the class that can fix container collapse*/
         </style>
     </head>
